@@ -1,0 +1,24 @@
+@CHARSET "UTF-8";
+.box {
+  font-family: 'Oswald', serif;
+  width: 300px;
+  height: 200px;
+  border: 10px solid #fff;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  cursor: default;
+  margin: 30px auto 0 auto;
+}
+
+.box .overlay {
+    width: 300px;
+    height: 200px;
+    position: absolute;
+    overflow: hidden;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    background-color: rgba(255, 125, 20, 0.8); 
+    transition: all 0.4s ease-in-out;
+}
